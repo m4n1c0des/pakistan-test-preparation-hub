@@ -1,0 +1,501 @@
+id,subject,topic,difficulty,cognitive_level,exam_tags,competency_area,language,origin,review_status
+PTH-0001,Aptitude,Pattern recognition,easy,understand,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0002,Aptitude,Pattern recognition,medium,analyze,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0003,Aptitude,Work and time,medium,apply,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0004,Aptitude,Percentages,easy,apply,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0005,Aptitude,Ratios,medium,apply,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0006,Aptitude,Averages,medium,analyze,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0007,Aptitude,Logical deduction,medium,analyze,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0008,Aptitude,Speed distance time,medium,apply,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0009,Aptitude,Probability,hard,analyze,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0010,Aptitude,Sets,hard,analyze,General Aptitude;NSCT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0011,English,Vocabulary,easy,understand,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0012,English,Grammar,medium,apply,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0013,English,Subject-verb agreement,medium,apply,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0014,English,Prepositions,easy,remember,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0015,English,Sentence completion,medium,analyze,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0016,English,Comprehension,medium,analyze,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0017,English,Punctuation,medium,apply,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0018,English,Word usage,hard,analyze,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0019,English,Parallel structure,hard,evaluate,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0020,English,Inference,hard,evaluate,NAT / GAT / GRE / English;MDCAT;ECAT;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0021,Quantitative,Algebra,easy,apply,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0022,Quantitative,Fractions,medium,apply,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0023,Quantitative,Geometry,medium,apply,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0024,Quantitative,Statistics,medium,analyze,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0025,Quantitative,Number theory,hard,analyze,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0026,Quantitative,Probability,medium,apply,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0027,Quantitative,Compound interest,hard,apply,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0028,Quantitative,Data interpretation,hard,analyze,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0029,Quantitative,Inequalities,medium,apply,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0030,Quantitative,Sequences,hard,analyze,NAT / GAT / HAT / GRE;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0031,Analytical Reasoning,Ordering,medium,analyze,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0032,Analytical Reasoning,Conditional logic,hard,analyze,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0033,Analytical Reasoning,Syllogisms,medium,analyze,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0034,Analytical Reasoning,Assumptions,hard,evaluate,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0035,Analytical Reasoning,Cause and effect,hard,evaluate,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0036,Analytical Reasoning,Sets,medium,apply,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0037,Analytical Reasoning,Critical reasoning,hard,evaluate,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0038,Analytical Reasoning,Truth tables,hard,analyze,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0039,Analytical Reasoning,Scheduling,medium,analyze,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0040,Analytical Reasoning,Argument evaluation,hard,evaluate,NAT / GAT / HAT / recruitment;NSCT;USAT,Problem Solving and Analytical Skills,en,original_practice,editorially_reviewed
+PTH-0041,Computer Science,Algorithms,easy,understand,GATE CS / computing jobs / university;NSCT;ECAT,Data Structures and Algorithms,en,original_practice,editorially_reviewed
+PTH-0042,Computer Science,Data structures,medium,understand,GATE CS / computing jobs / university;NSCT;ECAT,Data Structures and Algorithms,en,original_practice,editorially_reviewed
+PTH-0043,Computer Science,Operating systems,medium,understand,GATE CS / computing jobs / university;NSCT;ECAT,Operating Systems,en,original_practice,editorially_reviewed
+PTH-0044,Computer Science,Databases,medium,apply,GATE CS / computing jobs / university;NSCT;ECAT,Databases,en,original_practice,editorially_reviewed
+PTH-0045,Computer Science,Networking,easy,remember,GATE CS / computing jobs / university;NSCT;ECAT,Computer Networks and Cloud Computing,en,original_practice,editorially_reviewed
+PTH-0046,Computer Science,OOP,medium,understand,GATE CS / computing jobs / university;NSCT;ECAT,Programming,en,original_practice,editorially_reviewed
+PTH-0047,Computer Science,Complexity,hard,analyze,GATE CS / computing jobs / university;NSCT;ECAT,Data Structures and Algorithms,en,original_practice,editorially_reviewed
+PTH-0048,Computer Science,Database normalization,hard,analyze,GATE CS / computing jobs / university;NSCT;ECAT,Databases,en,original_practice,editorially_reviewed
+PTH-0049,Computer Science,Computer architecture,medium,understand,GATE CS / computing jobs / university;NSCT;ECAT,,en,original_practice,editorially_reviewed
+PTH-0050,Computer Science,Programming,medium,apply,GATE CS / computing jobs / university;NSCT;ECAT,Programming,en,original_practice,editorially_reviewed
+PTH-0051,Computer Science,Cybersecurity,hard,analyze,GATE CS / computing jobs / university;NSCT;ECAT,Cyber Security,en,original_practice,editorially_reviewed
+PTH-0052,Computer Science,Software engineering,hard,evaluate,GATE CS / computing jobs / university;NSCT;ECAT,Software Engineering,en,original_practice,editorially_reviewed
+PTH-0053,Mathematics,Calculus,medium,apply,GATE / STEM admissions;ECAT;USAT;LAT,,en,original_practice,editorially_reviewed
+PTH-0054,Mathematics,Linear algebra,hard,understand,GATE / STEM admissions;ECAT;USAT;LAT,,en,original_practice,editorially_reviewed
+PTH-0055,Mathematics,Probability,medium,apply,GATE / STEM admissions;ECAT;USAT;LAT,,en,original_practice,editorially_reviewed
+PTH-0056,Mathematics,Logarithms,medium,apply,GATE / STEM admissions;ECAT;USAT;LAT,,en,original_practice,editorially_reviewed
+PTH-0057,Mathematics,Matrices,hard,analyze,GATE / STEM admissions;ECAT;USAT;LAT,,en,original_practice,editorially_reviewed
+PTH-0058,Mathematics,Functions,medium,apply,GATE / STEM admissions;ECAT;USAT;LAT,,en,original_practice,editorially_reviewed
+PTH-0059,Mathematics,Limits,hard,apply,GATE / STEM admissions;ECAT;USAT;LAT,,en,original_practice,editorially_reviewed
+PTH-0060,Mathematics,Combinatorics,hard,apply,GATE / STEM admissions;ECAT;USAT;LAT,,en,original_practice,editorially_reviewed
+PTH-0061,Physics,Mechanics,easy,apply,STEM admissions / general science;MDCAT;ECAT,,en,original_practice,editorially_reviewed
+PTH-0062,Physics,Electricity,medium,apply,STEM admissions / general science;MDCAT;ECAT,,en,original_practice,editorially_reviewed
+PTH-0063,Physics,Waves,medium,understand,STEM admissions / general science;MDCAT;ECAT,,en,original_practice,editorially_reviewed
+PTH-0064,Physics,Energy,medium,apply,STEM admissions / general science;MDCAT;ECAT,,en,original_practice,editorially_reviewed
+PTH-0065,Physics,Optics,medium,understand,STEM admissions / general science;MDCAT;ECAT,,en,original_practice,editorially_reviewed
+PTH-0066,Physics,Thermodynamics,hard,understand,STEM admissions / general science;MDCAT;ECAT,,en,original_practice,editorially_reviewed
+PTH-0067,Physics,Momentum,hard,analyze,STEM admissions / general science;MDCAT;ECAT,,en,original_practice,editorially_reviewed
+PTH-0068,Physics,Units,easy,remember,STEM admissions / general science;MDCAT;ECAT,,en,original_practice,editorially_reviewed
+PTH-0069,Business,Marketing,medium,understand,Business admissions / recruitment,,en,original_practice,editorially_reviewed
+PTH-0070,Business,Accounting,medium,apply,Business admissions / recruitment,,en,original_practice,editorially_reviewed
+PTH-0071,Business,Economics,medium,understand,Business admissions / recruitment,,en,original_practice,editorially_reviewed
+PTH-0072,Business,Management,hard,analyze,Business admissions / recruitment,,en,original_practice,editorially_reviewed
+PTH-0073,Business,Entrepreneurship,medium,understand,Business admissions / recruitment,,en,original_practice,editorially_reviewed
+PTH-0074,Business,Economics,hard,analyze,Business admissions / recruitment,,en,original_practice,editorially_reviewed
+PTH-0075,General Knowledge,Pakistan studies,easy,remember,General tests / screening;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0076,General Knowledge,Geography,easy,remember,General tests / screening;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0077,General Knowledge,Research literacy,hard,evaluate,General tests / screening;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0078,General Knowledge,Digital literacy,medium,understand,General tests / screening;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0079,General Knowledge,Civic knowledge,medium,remember,General tests / screening;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH-0080,General Knowledge,Scientific reasoning,hard,evaluate,General tests / screening;USAT;LAT;CSS,,en,original_practice,editorially_reviewed
+PTH2-0001,Biology,Cell biology,medium,understand,NAT-IM;GAT-C;Biological Sciences;MDCAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0002,Biology,Genetics,hard,apply,NAT-IM;GAT-C;Biological Sciences;MDCAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0003,Biology,Molecular biology,medium,understand,NAT-IM;GAT-C;Biological Sciences;MDCAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0004,Biology,Human physiology,medium,understand,NAT-IM;Biological Sciences;MDCAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0005,Biology,Ecology,hard,analyze,NAT-IM;GAT-C;MDCAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0006,Biology,Evolution,medium,understand,NAT-IM;GAT-C;MDCAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0007,Biology,Immunology,hard,analyze,NAT-IM;GAT-C;MDCAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0008,Biology,Cell division,medium,understand,NAT-IM;GAT-C;MDCAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0009,Chemistry,Chemical bonding,medium,apply,NAT-IE;NAT-IM;GAT-C;MDCAT;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0010,Chemistry,Stoichiometry,hard,apply,NAT-IE;NAT-IM;MDCAT;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0011,Chemistry,Acids and bases,medium,apply,NAT-IE;NAT-IM;MDCAT;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0012,Chemistry,Chemical equilibrium,hard,analyze,NAT-IE;NAT-IM;MDCAT;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0013,Chemistry,Electrochemistry,hard,understand,NAT-IE;MDCAT;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0014,Chemistry,Organic chemistry,medium,understand,NAT-IE;NAT-IM;MDCAT;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0015,Chemistry,Atomic structure,medium,apply,NAT-IE;NAT-IM;MDCAT;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0016,Chemistry,Thermochemistry,hard,analyze,NAT-IE;MDCAT;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0017,Agriculture,Soil science,medium,understand,NAT-IIB;GAT-C;Agriculture,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0018,Agriculture,Plant nutrition,medium,understand,NAT-IIB;GAT-C,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0019,Agriculture,Irrigation,hard,analyze,NAT-IIB;Agriculture,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0020,Agriculture,Plant physiology,medium,understand,NAT-IIB;GAT-C,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0021,Agriculture,Integrated pest management,hard,apply,NAT-IIB;GAT-C,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0022,Agriculture,Plant breeding,hard,understand,NAT-IIB;Agriculture,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0023,Agriculture,Environmental science,medium,understand,GAT-C;Agriculture,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0024,Agriculture,Plant pathology,medium,apply,NAT-IIB;Agriculture,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0025,Economics,Microeconomics,medium,apply,NAT-IIM;GAT-A;Business,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0026,Economics,Elasticity,hard,apply,NAT-IIM;GAT-A,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0027,Economics,Macroeconomics,medium,understand,NAT-IIM;GAT-A,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0028,Economics,Monetary policy,hard,analyze,NAT-IIM;GAT-A,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0029,Economics,Opportunity cost,medium,apply,NAT-IIM;GAT-A,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0030,Economics,Market structures,hard,understand,NAT-IIM;GAT-A,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0031,Economics,Public finance,medium,understand,NAT-IIM;FPSC/PPSC,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0032,Economics,Development economics,hard,analyze,NAT-IIM;GAT-B,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0033,Accounting,Financial statements,medium,understand,NAT-IIM;GAT-A;Business,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0034,Accounting,Accounting equation,easy,apply,NAT-IIM;Business,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0035,Accounting,Accrual accounting,hard,apply,NAT-IIM;Business,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0036,Accounting,Cost accounting,medium,apply,NAT-IIM;GAT-A;Business,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0037,Accounting,Cash flow,medium,understand,NAT-IIM;Business,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0038,Accounting,Inventory valuation,hard,analyze,NAT-IIM;Business,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0039,Business,Management,medium,understand,NAT-IIM;GAT-A;Business,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0040,Business,Marketing,hard,apply,NAT-IIM;GAT-A,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0041,Statistics,Descriptive statistics,easy,apply,NAT-IIM;GAT-A;GAT-C;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0042,Statistics,Probability,medium,apply,NAT-IIM;NAT-IE;GAT-C;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0043,Statistics,Normal distribution,hard,understand,NAT-IIM;GAT-C;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0044,Statistics,Hypothesis testing,hard,analyze,NAT-IIM;GAT-C;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0045,Statistics,Correlation,medium,understand,NAT-IIM;GAT-A;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0046,Statistics,Sampling,hard,analyze,NAT-IIM;GAT-C;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0047,Statistics,Conditional probability,hard,apply,NAT-IIM;GAT-C;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0048,Statistics,Regression,hard,understand,NAT-IIM;GAT-A;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0049,Pakistan Studies,Constitutional history,medium,remember,FPSC/PPSC;General Knowledge;USAT;LAT;CSS,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0051,Pakistan Studies,Civics,medium,understand,FPSC/PPSC;General Knowledge;USAT;LAT;CSS,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0052,Pakistan Studies,Constitutional structure,hard,understand,FPSC/PPSC;USAT;LAT;CSS,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0053,Pakistan Studies,Geography,medium,apply,FPSC/PPSC;General Knowledge;USAT;LAT;CSS,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0054,Pakistan Studies,History,medium,remember,FPSC/PPSC;General Knowledge;USAT;LAT;CSS,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0055,Pakistan Studies,Civics,hard,understand,FPSC/PPSC;USAT;LAT;CSS,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0056,Pakistan Studies,Geography,medium,understand,FPSC/PPSC;General Knowledge;USAT;LAT;CSS,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0057,Cyber Security,Cryptography,medium,understand,NSCT;Computing jobs,Cyber Security,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0058,Cyber Security,Authentication,medium,understand,NSCT;Computing jobs,Cyber Security,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0059,Cyber Security,Network security,hard,analyze,NSCT;Computing jobs,Cyber Security,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0060,Cyber Security,Access control,medium,apply,NSCT;Computing jobs,Cyber Security,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0061,Cyber Security,Incident response,hard,apply,NSCT;Computing jobs,Cyber Security,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0062,Cyber Security,Web security,medium,understand,NSCT;Computing jobs,Cyber Security,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0063,Cyber Security,Secure development,hard,analyze,NSCT;Computing jobs,Cyber Security,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0064,Cyber Security,Threat awareness,medium,understand,FPSC/PPSC;Computing jobs;NSCT,Cyber Security,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0065,Data Science,Machine learning,medium,understand,NSCT;Computing jobs,AI / Machine Learning and Data Analytics,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0066,Data Science,Evaluation metrics,hard,apply,NSCT;Computing jobs,AI / Machine Learning and Data Analytics,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0067,Data Science,Data preprocessing,medium,understand,NSCT;Computing jobs,AI / Machine Learning and Data Analytics,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0068,Data Science,Neural networks,hard,understand,NSCT;Computing jobs,AI / Machine Learning and Data Analytics,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0069,Data Science,Model validation,hard,analyze,NSCT;Computing jobs,AI / Machine Learning and Data Analytics,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0070,Data Science,AI ethics,medium,understand,NSCT;Computing jobs,AI / Machine Learning and Data Analytics,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0071,Data Science,Probability,hard,analyze,NSCT;Computing jobs,AI / Machine Learning and Data Analytics,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0072,Data Science,Deep learning,medium,understand,NSCT;Computing jobs,AI / Machine Learning and Data Analytics,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0073,Computer Science,Database transactions,hard,analyze,NSCT;GATE CS;Computing jobs;ECAT,Databases,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0074,Computer Science,Operating systems,hard,apply,NSCT;GATE CS;ECAT,Operating Systems,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0075,Computer Science,Algorithms,hard,analyze,NSCT;GATE CS;ECAT,Data Structures and Algorithms,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0076,Computer Science,Computer networks,medium,understand,NSCT;GATE CS;ECAT,Computer Networks and Cloud Computing,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0077,Computer Science,Databases,hard,understand,NSCT;GATE CS;ECAT,Databases,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0078,Computer Science,Theory of computation,hard,understand,GATE CS;University CS tests;NSCT;ECAT,Programming,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0079,Computer Science,Compiler design,medium,understand,NSCT;GATE CS;ECAT,Programming,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0080,Computer Science,Computer architecture,hard,apply,NSCT;GATE CS;ECAT,,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0081,Computer Science,Programming fundamentals,medium,apply,NSCT;Computing jobs;University CS tests;ECAT,Programming,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0082,Computer Science,Programming fundamentals,hard,analyze,NSCT;Computing jobs;University CS tests;ECAT,Programming,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0083,Computer Science,Programming fundamentals,medium,understand,NSCT;Computing jobs;University CS tests;ECAT,Programming,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0084,Computer Science,Programming fundamentals,medium,apply,NSCT;Computing jobs;University CS tests;ECAT,Programming,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0085,Computer Science,Programming fundamentals,hard,analyze,NSCT;Computing jobs;University CS tests;ECAT,Programming,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0086,Computer Science,Web Development,medium,understand,NSCT;Computing jobs;University CS tests;ECAT,Web Development,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0087,Computer Science,Web Development,easy,remember,NSCT;Computing jobs;University CS tests;ECAT,Web Development,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0088,Computer Science,Web Development,medium,understand,NSCT;Computing jobs;University CS tests;ECAT,Web Development,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0089,Computer Science,Web Development,medium,understand,NSCT;Computing jobs;University CS tests;ECAT,Web Development,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0090,Computer Science,Web Development,hard,understand,NSCT;Computing jobs;University CS tests;ECAT,Web Development,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0091,Computer Science,Operating systems,hard,analyze,NSCT;GATE CS;Computing jobs;ECAT,Operating Systems,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0092,Computer Science,Operating systems,hard,understand,NSCT;GATE CS;Computing jobs;ECAT,Operating Systems,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0093,Computer Science,Operating systems,medium,understand,NSCT;GATE CS;Computing jobs;ECAT,Operating Systems,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0094,Computer Science,Computer Networks and Cloud Computing,medium,understand,NSCT;GATE CS;Computing jobs;ECAT,Computer Networks and Cloud Computing,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0095,Computer Science,Computer Networks and Cloud Computing,hard,understand,NSCT;GATE CS;Computing jobs;ECAT,Computer Networks and Cloud Computing,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0096,Computer Science,Computer Networks and Cloud Computing,medium,apply,NSCT;GATE CS;Computing jobs;ECAT,Computer Networks and Cloud Computing,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0097,Computer Science,Software Engineering,medium,understand,NSCT;GATE CS;Computing jobs;ECAT,Software Engineering,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0098,Computer Science,Software Engineering,hard,analyze,NSCT;GATE CS;Computing jobs;ECAT,Software Engineering,en,original_practice,automated_checks_passed_pending_human_review
+PTH2-0099,Computer Science,Software Engineering,medium,understand,NSCT;GATE CS;Computing jobs;ECAT,Software Engineering,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0179,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0180,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0181,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0182,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0183,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0184,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0185,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0186,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0187,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0188,Quantitative,Percentages,easy,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0189,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0190,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0191,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0192,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0193,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0194,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0195,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0196,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0197,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0198,Quantitative,Percentage change,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0199,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0200,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0201,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0202,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0203,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0204,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0205,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0206,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0207,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0208,Quantitative,Ratio and proportion,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0209,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0210,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0211,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0212,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0213,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0214,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0215,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0216,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0217,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0218,Quantitative,Averages,easy,apply,NTS NAT;NTS GAT;GRE;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0219,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0220,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0221,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0222,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0223,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0224,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0225,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0226,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0227,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0228,Quantitative,Simple interest,medium,apply,NTS NAT;NTS GAT;HEC HAT/HAAT,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0229,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0230,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0231,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0232,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0233,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0234,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0235,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0236,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0237,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0238,Quantitative,Speed distance time,easy,apply,NTS NAT;NTS GAT;ECAT;General Aptitude,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0239,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0240,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0241,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0242,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0243,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0244,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0245,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0246,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0247,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0248,Quantitative,Linear equations,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0249,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0250,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0251,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0252,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0253,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0254,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0255,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0256,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0257,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0258,Quantitative,Probability,medium,apply,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0259,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0260,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0261,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0262,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0263,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0264,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0265,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0266,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0267,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0268,Quantitative,Work rate,hard,analyze,NTS NAT;NTS GAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0269,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0270,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0271,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0272,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0273,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0274,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0275,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0276,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0277,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0278,Quantitative,Algebraic expressions,medium,apply,NTS NAT;NTS GAT;ECAT;GRE,Quantitative,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0279,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0280,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0281,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0282,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0283,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0284,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0285,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0286,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0287,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0288,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0289,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0290,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0291,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0292,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0293,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0294,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0295,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0296,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0297,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0298,Analytical Reasoning,Arithmetic sequences,medium,analyze,NTS NAT;NTS GAT;HEC HAT/HAAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0299,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0300,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0301,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0302,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0303,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0304,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0305,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0306,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0307,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0308,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0309,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0310,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0311,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0312,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0313,Analytical Reasoning,Geometric sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0314,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0315,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0316,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0317,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0318,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0319,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0320,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0321,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0322,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0323,Analytical Reasoning,Letter sequences,medium,analyze,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0324,Analytical Reasoning,Direction sense,hard,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0325,Analytical Reasoning,Direction sense,hard,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0326,Analytical Reasoning,Direction sense,hard,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0327,Analytical Reasoning,Direction sense,hard,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0328,Analytical Reasoning,Direction sense,hard,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0329,Analytical Reasoning,Syllogisms,hard,evaluate,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0330,Analytical Reasoning,Syllogisms,hard,evaluate,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0331,Analytical Reasoning,Syllogisms,hard,evaluate,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0332,Analytical Reasoning,Syllogisms,hard,evaluate,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0333,Analytical Reasoning,Syllogisms,hard,evaluate,NTS NAT;NTS GAT;GRE,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0334,Analytical Reasoning,Ordering constraints,easy,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0335,Analytical Reasoning,Ordering constraints,easy,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0336,Analytical Reasoning,Ordering constraints,easy,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0337,Analytical Reasoning,Ordering constraints,easy,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0338,Analytical Reasoning,Ordering constraints,easy,analyze,NTS NAT;NTS GAT,Analytical Reasoning,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0339,Computer Science,Programming & OOP,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0340,Computer Science,Data Structures & Algorithms,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0341,Computer Science,Databases,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0342,Computer Science,Operating Systems,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0343,Computer Science,Networks,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0344,Computer Science,Cyber Security,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0345,Computer Science,Software Engineering,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0346,Computer Science,AI & Data Science,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0347,Computer Science,Programming & OOP,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0348,Computer Science,Data Structures & Algorithms,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0349,Computer Science,Databases,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0350,Computer Science,Operating Systems,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0351,Computer Science,Networks,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0352,Computer Science,Cyber Security,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0353,Computer Science,Software Engineering,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0354,Computer Science,AI & Data Science,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0355,Computer Science,Programming & OOP,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0356,Computer Science,Data Structures & Algorithms,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0357,Computer Science,Databases,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0358,Computer Science,Operating Systems,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0359,Computer Science,Networks,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0360,Computer Science,Cyber Security,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0361,Computer Science,Software Engineering,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0362,Computer Science,AI & Data Science,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0363,Computer Science,Programming & OOP,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0364,Computer Science,Data Structures & Algorithms,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0365,Computer Science,Databases,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0366,Computer Science,Operating Systems,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0367,Computer Science,Networks,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0368,Computer Science,Cyber Security,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0369,Computer Science,Software Engineering,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0370,Computer Science,AI & Data Science,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0371,Computer Science,Programming & OOP,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0372,Computer Science,Data Structures & Algorithms,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0373,Computer Science,Databases,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0374,Computer Science,Operating Systems,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0375,Computer Science,Networks,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0376,Computer Science,Cyber Security,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0377,Computer Science,Software Engineering,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0378,Computer Science,AI & Data Science,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0379,Computer Science,Programming & OOP,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0380,Computer Science,Data Structures & Algorithms,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0381,Computer Science,Databases,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0382,Computer Science,Operating Systems,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0383,Computer Science,Networks,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0384,Computer Science,Cyber Security,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0385,Computer Science,Software Engineering,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0386,Computer Science,AI & Data Science,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0387,Computer Science,Programming & OOP,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0388,Computer Science,Data Structures & Algorithms,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0389,Computer Science,Databases,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0390,Computer Science,Operating Systems,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0391,Computer Science,Networks,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0392,Computer Science,Cyber Security,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0393,Computer Science,Software Engineering,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0394,Computer Science,AI & Data Science,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0395,Computer Science,Programming & OOP,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0396,Computer Science,Data Structures & Algorithms,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0397,Computer Science,Databases,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0398,Computer Science,Operating Systems,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0399,Computer Science,Networks,hard,analyze,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0400,Computer Science,Cyber Security,medium,understand,GATE CS;NSCT;Technical Hiring;FPSC/PPSC Technical,Computer Science,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0401,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0402,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0403,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0404,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0405,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0406,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0407,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0408,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0409,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0410,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0411,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0412,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0413,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0414,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0415,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0416,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0417,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0418,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0419,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0420,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0421,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0422,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0423,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0424,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0425,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0426,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0427,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0428,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0429,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0430,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0431,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0432,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0433,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0434,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0435,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0436,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0437,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0438,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0439,English,Grammar and vocabulary,medium,understand,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0440,English,Grammar and vocabulary,hard,analyze,NTS NAT;NTS GAT;GRE;IELTS;TOEFL,English,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0441,Biology,Cell biology,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0442,Biology,Genetics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0443,Biology,Human physiology,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0444,Biology,Plant physiology,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0445,Biology,Ecology,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0446,Biology,Genetics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0447,Biology,Human physiology,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0448,Biology,Cell biology,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0449,Biology,Evolution,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0450,Biology,Microbiology,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0451,Chemistry,Atomic structure,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0452,Chemistry,Chemical bonding,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0453,Chemistry,Acids and bases,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0454,Chemistry,Periodic table,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0455,Chemistry,States of matter,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0456,Chemistry,Stoichiometry,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0457,Chemistry,Chemical reactions,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0458,Chemistry,Solutions,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0459,Chemistry,Redox,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0460,Chemistry,Organic chemistry,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0461,Physics,Mechanics,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0462,Physics,Mechanics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0463,Physics,Energy,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0464,Physics,Waves,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0465,Physics,Electricity,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0466,Physics,Optics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0467,Physics,Thermodynamics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0468,Physics,Mechanics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0469,Physics,Electricity,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0470,Physics,Modern physics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0471,Agriculture,Soil science,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0472,Agriculture,Plant nutrition,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0473,Agriculture,Irrigation,hard,analyze,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0474,Agriculture,Crop science,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0475,Agriculture,Plant pathology,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0476,Agriculture,Agronomy,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0477,Agriculture,Soil science,hard,analyze,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0478,Agriculture,Water management,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0479,Agriculture,Plant breeding,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0480,Agriculture,Integrated pest management,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0481,Biology,Immunology,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0482,Biology,Cell division,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0483,Biology,Human physiology,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0484,Biology,Ecology,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0485,Biology,Plant physiology,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Biology,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0486,Chemistry,Atomic structure,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0487,Chemistry,Chemical bonding,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0488,Chemistry,Gases,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0489,Chemistry,Solutions,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0490,Chemistry,Organic chemistry,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Chemistry,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0491,Physics,Mechanics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0492,Physics,Waves,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0493,Physics,Electricity,hard,analyze,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0494,Physics,Optics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0495,Physics,Thermodynamics,medium,understand,MDCAT;ECAT;NTS NAT;USAT;General Science,Physics,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0496,Agriculture,Soil fertility,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0497,Agriculture,Plant physiology,hard,analyze,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0498,Agriculture,Crop science,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0499,Agriculture,Pest management,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review
+PTH-0500,Agriculture,Soil science,medium,understand,Agriculture Entry Tests;NTS NAT;General Science,Agriculture,en,original_practice,automated_checks_passed_pending_human_review

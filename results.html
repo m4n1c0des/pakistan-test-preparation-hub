@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Results — Pakistan Test Prep Hub</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main id="app"><div class="loading">Loading results…</div></main>
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+  <script>
+    function init() {
+      mountLayout('mock');
+      const result = PTH.getResult();
+      const questions = PTH.getSessionQuestions();
+
+      if (!result) {
+        document.getElementById('app').innerHTML = `
+          <div style="text-align:center;padding:3rem">
+            <h1>No results yet</h1>
+            <p class="text-muted mt-1">Complete a mock test to see your score.</p>
+            <a href="mock.html" class="btn btn-primary mt-2">Go to Mock Exam</a>
+          </div>`;
+        return;
+      }
+
+      const accuracy = result.total ? Math.round(result.correct / result.total * 100) : 0;
+      const bySubject = {};
+      questions.forEach(q => {
+        if (!bySubject[q.subject]) bySubject[q.subject] = { correct: 0, total: 0 };
+        bySubject[q.subject].total++;
+        if (result.answers[q.id] === q.correct_answer) bySubject[q.subject].correct++;
+      });
+
+      let reviewHtml = questions.map((q, i) => {
+        const ans = result.answers[q.id];
+        const ok = ans === q.correct_answer;
+        const attempted = !!ans;
+        const border = !attempted ? '' : ok ? 'border-color:var(--success)' : 'border-color:var(--error)';
+        return `
+          <div class="card mt-2" style="${border}">
+            <p class="text-sm"><strong>Q${i+1}.</strong> ${q.prompt}</p>
+            <p class="text-sm mt-1">Your answer: <strong>${ans || '—'}</strong>
+              ${!ok && attempted ? ` · Correct: <strong>${q.correct_answer}</strong>` : ''}
+            </p>
+            <p class="text-sm text-muted mt-1">${q.explanation}</p>
+          </div>`;
+      }).join('');
+
+      document.getElementById('app').innerHTML = `
+        <h1>Results</h1>
+        <div class="stat-grid mt-2">
+          <div class="stat"><div class="stat-value">${result.correct}/${result.total}</div><div class="stat-label">Score</div></div>
+          <div class="stat"><div class="stat-value">${accuracy}%</div><div class="stat-label">Accuracy</div></div>
+          <div class="stat"><div class="stat-value">${result.total - Object.keys(result.answers).length}</div><div class="stat-label">Unattempted</div></div>
+        </div>
+
+        <h2 class="mt-4">Subject performance</h2>
+        ${Object.entries(bySubject).map(([s, v]) => `
+          <div class="flex-between mt-1" style="gap:1rem">
+            <span class="text-sm" style="min-width:120px">${s}</span>
+            <div style="flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden">
+              <div style="height:100%;width:${v.total?(v.correct/v.total)*100:0}%;background:var(--primary);border-radius:4px"></div>
+            </div>
+            <span class="text-sm" style="min-width:40px;text-align:right">${v.correct}/${v.total}</span>
+          </div>
+        `).join('')}
+
+        <h2 class="mt-4">Review answers</h2>
+        ${reviewHtml}
+
+        <div class="flex gap-2 mt-3">
+          <a href="mock.html" class="btn btn-primary">Another mock</a>
+          <a href="practice.html" class="btn btn-ghost">Practice</a>
+        </div>
+      `;
+    }
+    init();
+  </script>
+</body>
+</html>

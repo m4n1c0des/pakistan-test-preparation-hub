@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/pakistan-test-preparation-hub/v3/question.schema.json",
+  "title": "Practice single-answer MCQ",
+  "type": "object",
+  "required": [
+    "id",
+    "exam_tags",
+    "subject",
+    "topic",
+    "difficulty",
+    "cognitive_level",
+    "question_type",
+    "prompt",
+    "options",
+    "correct_answer",
+    "explanation",
+    "origin",
+    "review_status",
+    "language"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^PTH2?-[0-9]{4,}$"
+    },
+    "exam_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "difficulty": {
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ]
+    },
+    "cognitive_level": {
+      "enum": [
+        "remember",
+        "understand",
+        "apply",
+        "analyze",
+        "evaluate"
+      ]
+    },
+    "question_type": {
+      "const": "single_choice"
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 10
+    },
+    "options": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "key",
+          "text"
+        ],
+        "properties": {
+          "key": {
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "correct_answer": {
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 10
+    },
+    "origin": {
+      "enum": [
+        "original_practice",
+        "open_license_adaptation"
+      ]
+    },
+    "source_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alignment_references": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "review_status": {
+      "enum": [
+        "draft",
+        "editorially_reviewed",
+        "automated_checks_passed_pending_human_review",
+        "needs_revision"
+      ]
+    },
+    "language": {
+      "type": "string",
+      "minLength": 2
+    },
+    "competency_area": {
+      "type": "string",
+      "minLength": 1
+    },
+    "explanation_ur": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Optional Roman Urdu explanation; it must not be treated as independently verified unless reviewed."
+    }
+  },
+  "additionalProperties": false
+}

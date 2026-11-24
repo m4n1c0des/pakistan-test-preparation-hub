@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard — Pakistan Test Prep Hub</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main id="app"><div class="loading">Loading…</div></main>
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+  <script>
+    async function init() {
+      try {
+        const bank = await PTH.loadBank();
+        mountLayout('dashboard', bank.count);
+
+        const bySub = {};
+        const byDiff = {};
+        bank.questions.forEach(q => {
+          bySub[q.subject] = (bySub[q.subject] || 0) + 1;
+          byDiff[q.difficulty] = (byDiff[q.difficulty] || 0) + 1;
+        });
+        const subjects = Object.entries(bySub).sort((a,b) => b[1]-a[1]);
+
+        document.getElementById('app').innerHTML = `
+          <h1>Student Dashboard</h1>
+          <p class="text-muted mb-2">Overview of the available question bank. Personal history arrives with accounts in a future version.</p>
+
+          <div class="stat-grid">
+            <div class="stat"><div class="stat-value">${bank.count}</div><div class="stat-label">Total questions</div></div>
+            <div class="stat"><div class="stat-value">${subjects.length}</div><div class="stat-label">Subjects</div></div>
+            <div class="stat"><div class="stat-value">${Object.keys(byDiff).join(' · ')}</div><div class="stat-label">Difficulties</div></div>
+          </div>
+
+          <h2 class="mt-4">Questions by subject</h2>
+          <div class="card-grid">
+            ${subjects.map(([s,c]) => `
+              <a href="practice.html" class="card" style="text-decoration:none;color:inherit">
+                <div class="flex-between">
+                  <strong>${s}</strong>
+                  <span class="text-muted text-sm">${c}</span>
+                </div>
+              </a>
+            `).join('')}
+          </div>
+
+          <h2 class="mt-4">Difficulty distribution</h2>
+          <div class="stat-grid">
+            ${Object.entries(byDiff).map(([d,c]) => `
+              <div class="stat"><div class="stat-value" style="text-transform:capitalize">${d}</div><div class="stat-label">${c} questions</div></div>
+            `).join('')}
+          </div>
+
+          <div class="flex gap-2 mt-4">
+            <a href="practice.html" class="btn btn-primary">Start Practice</a>
+            <a href="mock.html" class="btn btn-outline">Mock Test</a>
+          </div>
+        `;
+      } catch (e) {
+        document.getElementById('app').innerHTML = `<p>Error: ${e.message}</p>`;
+        mountLayout('dashboard');
+      }
+    }
+    init();
+  </script>
+</body>
+</html>

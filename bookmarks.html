@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bookmarks — Pakistan Test Prep Hub</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main id="app"><div class="loading">Loading…</div></main>
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+  <script>
+    async function init() {
+      try {
+        const bank = await PTH.loadBank();
+        mountLayout('bookmarks', bank.count);
+        render(bank);
+      } catch (e) {
+        document.getElementById('app').innerHTML = `<p>Error: ${e.message}</p>`;
+        mountLayout('bookmarks');
+      }
+    }
+
+    function render(bank) {
+      const ids = PTH.getBookmarks();
+      const questions = bank.questions.filter(q => ids.includes(q.id));
+
+      if (questions.length === 0) {
+        document.getElementById('app').innerHTML = `
+          <h1>Bookmarks</h1>
+          <p class="text-muted mt-2">No bookmarks yet. Use the bookmark button while practising.</p>
+          <a href="practice.html" class="btn btn-primary mt-2">Go to Practice</a>`;
+        return;
+      }
+
+      document.getElementById('app').innerHTML = `
+        <h1>Bookmarks</h1>
+        <p class="text-muted mb-2">${questions.length} saved question(s). Stored only in this browser.</p>
+        ${questions.map(q => `
+          <div class="card mt-2">
+            <div class="flex-between">
+              <div>
+                <div class="q-meta">
+                  <span class="tag">${q.subject}</span>
+                  <span class="tag">${q.topic}</span>
+                </div>
+                <p class="mt-1"><strong>${q.prompt}</strong></p>
+                <p class="text-sm text-muted mt-1">Correct: <strong>${q.correct_answer}</strong> — ${q.explanation}</p>
+              </div>
+              <button class="btn btn-ghost" onclick="removeBm('${q.id}')">Remove</button>
+            </div>
+          </div>
+        `).join('')}
+      `;
+    }
+
+    function removeBm(id) {
+      const ids = PTH.getBookmarks().filter(x => x !== id);
+      PTH.setBookmarks(ids);
+      PTH.loadBank().then(render);
+    }
+
+    init();
+  </script>
+</body>
+</html>

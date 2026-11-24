@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mock Test — Pakistan Test Prep Hub</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main id="app"><div class="loading">Loading…</div></main>
+
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+  <script>
+    let bank = null;
+    let blueprints = [];
+    let session = null;
+    let index = 0;
+    let answers = {};
+    let marked = new Set();
+    let secondsLeft = 0;
+    let timerId = null;
+
+    async function init() {
+      try {
+        bank = await PTH.loadBank();
+        blueprints = await PTH.loadBlueprints();
+        mountLayout('mock', bank.count);
+        showSetup();
+      } catch (e) {
+        document.getElementById('app').innerHTML = `<p>Error: ${e.message}</p>`;
+        mountLayout('mock');
+      }
+    }
+
+    function showSetup() {
+      clearInterval(timerId);
+      document.getElementById('app').innerHTML = `
+        <h1>Mock Examination</h1>
+        <p class="text-muted mb-2">Timed practice tests. Configurations are practice blueprints unless verified official.</p>
+
+        <div class="card mb-2" style="max-width:560px">
+          <h3>From blueprint</h3>
+          <label class="mt-1">Select blueprint</label>
+          <select id="bp-select">
+            <option value="">Choose…</option>
+            ${blueprints.map(bp => `<option value="${bp.id}">${bp.exam}${bp.total_questions ? ' (~'+bp.total_questions+' Qs)' : ''}</option>`).join('')}
+          </select>
+          <button class="btn btn-primary mt-2" onclick="startBlueprint()">Start blueprint mock</button>
+        </div>
+
+        <div class="card" style="max-width:560px">
+          <h3>Custom practice mock</h3>
+          <div class="form-row mt-1">
+            <div>
+              <label>Questions</label>
+              <input type="number" id="c-count" value="20" min="5" max="50" />
+            </div>
+            <div>
+              <label>Duration (minutes)</label>
+              <input type="number" id="c-mins" value="30" min="5" max="180" />
+            </div>
+          </div>
+          <button class="btn btn-primary mt-2" onclick="startCustom()">Start custom mock</button>
+        </div>
+      `;
+    }
+
+    function startBlueprint() {
+      const id = document.getElementById('bp-select').value;
+      if (!id) return alert('Please select a blueprint');
+      const bp = blueprints.find(b => b.id === id);
+      const total = bp.total_questions || 20;
+      const examName = (bp.exam || '').split(/[\s\/]/)[0];
+      let pool = PTH.filter(bank.questions, { exam: examName });
+      if (pool.length < total) pool = bank.questions;
+      const qs = PTH.pick(pool, total);
+      const mins = bp.duration_minutes || Math.max(20, Math.round(total * 1.2));
+      beginSession(qs, mins);
+    }
+
+    function startCustom() {
+      const count = parseInt(document.getElementById('c-count').value, 10) || 20;
+      const mins = parseInt(document.getElementById('c-mins').value, 10) || 30;
+      const qs = PTH.pick(bank.questions, count);
+      beginSession(qs, mins);
+    }
+
+    function beginSession(qs, mins) {
+      session = qs;
+      index = 0;
+      answers = {};
+      marked = new Set();
+      secondsLeft = mins * 60;
+      clearInterval(timerId);
+      timerId = setInterval(() => {
+        secondsLeft--;
+        updateTimer();
+        if (secondsLeft <= 0) {
+          clearInterval(timerId);
+          submitMock();
+        }
+      }, 1000);
+      renderQuestion();
+    }
+
+    function formatTime(s) {
+      const m = Math.floor(s / 60);
+      const sec = s % 60;
+      return `${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`;
+    }
+
+    function updateTimer() {
+      const el = document.getElementById('timer-display');
+      if (el) {
+        el.textContent = formatTime(secondsLeft);
+        el.classList.toggle('warn', secondsLeft < 60);
+      }
+    }
+
+    function renderQuestion() {
+      const q = session[index];
+      const userAns = answers[q.id];
+
+      document.getElementById('app').innerHTML = `
+        <div class="timer-bar">
+          <div class="timer ${secondsLeft < 60 ? 'warn' : ''}" id="timer-display">${formatTime(secondsLeft)}</div>
+          <div class="text-sm text-muted">${index+1} / ${session.length} · Answered ${Object.keys(answers).length}</div>
+          <button class="btn btn-primary" style="background:var(--accent)" onclick="submitMock()">Submit</button>
+        </div>
+
+        <div class="q-card">
+          <div class="flex-between">
+            <div class="q-meta">
+              <span class="tag">${q.subject}</span>
+              <span class="tag">${q.difficulty}</span>
+            </div>
+            <button class="btn btn-ghost" onclick="toggleMark('${q.id}')">${marked.has(q.id) ? '🚩 Marked' : '🚩 Mark'}</button>
+          </div>
+          <p class="q-prompt">${q.prompt}</p>
+          <div>
+            ${q.options.map(opt => `
+              <button class="option ${userAns === opt.key ? 'selected' : ''}" onclick="selectAns('${opt.key}')">
+                <strong>${opt.key}.</strong> ${opt.text}
+              </button>
+            `).join('')}
+          </div>
+        </div>
+
+        <div class="flex-between mt-2">
+          <button class="btn btn-ghost" onclick="go(-1)" ${index===0?'disabled':''}>◀ Prev</button>
+          <button class="btn btn-primary" onclick="go(1)" ${index>=session.length-1?'disabled':''}>Next ▶</button>
+        </div>
+
+        <div class="nav-dots">
+          ${session.map((qq, i) => {
+            let cls = 'dot';
+            if (i === index) cls += ' current';
+            if (answers[qq.id]) cls += ' answered';
+            if (marked.has(qq.id)) cls += ' marked';
+            return `<button class="${cls}" onclick="goTo(${i})">${i+1}</button>`;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    function selectAns(key) {
+      answers[session[index].id] = key;
+      renderQuestion();
+    }
+    function go(d) { index = Math.max(0, Math.min(session.length-1, index+d)); renderQuestion(); }
+    function goTo(i) { index = i; renderQuestion(); }
+    function toggleMark(id) {
+      if (marked.has(id)) marked.delete(id); else marked.add(id);
+      renderQuestion();
+    }
+
+    function submitMock() {
+      clearInterval(timerId);
+      let correct = 0;
+      session.forEach(q => { if (answers[q.id] === q.correct_answer) correct++; });
+      const result = {
+        mode: 'mock',
+        total: session.length,
+        correct,
+        answers,
+        questionIds: session.map(q => q.id),
+        marked: [...marked],
+        completedAt: new Date().toISOString()
+      };
+      PTH.saveResult(result);
+      PTH.saveSessionQuestions(session);
+      window.location.href = 'results.html';
+    }
+
+    init();
+  </script>
+</body>
+</html>

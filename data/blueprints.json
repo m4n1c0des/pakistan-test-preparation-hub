@@ -1,0 +1,141 @@
+{
+  "note": "Blueprints are practice planning aids, not guaranteed current exam papers. Verify official notices before using exact counts/timing.",
+  "blueprints": [
+    {
+      "id": "nsct-it-competency-map",
+      "exam": "NSCT (IT Graduates)",
+      "source": "https://nsct.hec.gov.pk/AreasOfCompetencies",
+      "source_checked": "2026-11-24",
+      "weightage_percent": {
+        "Computer Networks and Cloud Computing": 10,
+        "Programming": 10,
+        "Data Structures and Algorithms": 10,
+        "Operating Systems": 5,
+        "Software Engineering": 10,
+        "Web Development": 10,
+        "AI/ML and Data Analytics": 10,
+        "Cyber Security": 5,
+        "Databases": 10,
+        "Problem Solving and Analytical Skills": 20
+      },
+      "note": "Use these published competency weights as a coverage map. Do not infer an exact number of questions or test duration from percentages unless HEC publishes that detail."
+    },
+    {
+      "id": "nat-12-year-groups",
+      "exam": "NTS NAT Category I",
+      "source": "https://www.nts.org.pk/new/nat-paper-pattern.php",
+      "source_checked": "2026-11-24",
+      "total_questions": 90,
+      "sections": {
+        "English": 20,
+        "Analytical": 20,
+        "Quantitative": 20,
+        "Subject": 30
+      }
+    },
+    {
+      "id": "nat-14-year-arts",
+      "exam": "NTS NAT-IIA",
+      "source": "https://www.nts.org.pk/new/nat-paper-pattern.php",
+      "source_checked": "2026-11-24",
+      "total_questions": 100,
+      "sections": {
+        "English": 20,
+        "Analytical": 15,
+        "Quantitative": 15,
+        "Subject": 50
+      }
+    },
+    {
+      "id": "nat-14-year-biological",
+      "exam": "NTS NAT-IIB",
+      "source": "https://www.nts.org.pk/new/nat-paper-pattern.php",
+      "source_checked": "2026-11-24",
+      "total_questions": 100,
+      "sections": {
+        "English": 10,
+        "Analytical": 10,
+        "Quantitative": 10,
+        "Subject": 70
+      }
+    },
+    {
+      "id": "gat-general-a",
+      "exam": "NTS GAT-A General",
+      "source": "https://www.nts.org.pk/Products/GATGEN/gat-g-paper-dist.php",
+      "source_checked": "2026-11-24",
+      "weightage_percent": {
+        "Verbal Reasoning": 35,
+        "Quantitative Reasoning": 35,
+        "Analytical Reasoning": 30
+      }
+    },
+    {
+      "id": "gat-general-b",
+      "exam": "NTS GAT-B General",
+      "source": "https://www.nts.org.pk/Products/GATGEN/gat-g-paper-dist.php",
+      "source_checked": "2026-11-24",
+      "weightage_percent": {
+        "Verbal Reasoning": 50,
+        "Quantitative Reasoning": 30,
+        "Analytical Reasoning": 20
+      }
+    },
+    {
+      "id": "gat-general-c",
+      "exam": "NTS GAT-C General",
+      "source": "https://www.nts.org.pk/Products/GATGEN/gat-g-paper-dist.php",
+      "source_checked": "2026-11-24",
+      "weightage_percent": {
+        "Verbal Reasoning": 45,
+        "Quantitative Reasoning": 35,
+        "Analytical Reasoning": 20
+      }
+    },
+    {
+      "id": "hec-hat-haat",
+      "exam": "HEC HAT-General / HAAT-Subject",
+      "source": "https://www.hec.gov.pk/english/HECAnnouncements/Pages/Public-Notice.aspx",
+      "source_checked": "2026-11-24",
+      "note": "Fall 2027 arrangements are subject to separately announced schedules, registration details, content weightages and sample papers."
+    },
+    {
+      "id": "lat-hec-reference",
+      "exam": "HEC Law Admission Test (LAT)",
+      "source": "https://www.hec.gov.pk/english/services/students/etc/PublishingImages/LAT%20Final-1.pdf",
+      "source_checked": "2026-11-24",
+      "total_marks": 100,
+      "mcq_count": 75,
+      "writing_components": {
+        "Essay": 15,
+        "Personal Statement": 10
+      },
+      "note": "Use the linked current ETC notice to verify exact timings and instructions."
+    },
+    {
+      "id": "uet-ecat-2026-cycle",
+      "exam": "UET ECAT 2026 cycle",
+      "source": "https://ecat.uet.edu.pk/General/Ecat",
+      "source_checked": "2026-11-24",
+      "duration_minutes": 100,
+      "english_questions": 10,
+      "subject_questions": 90,
+      "marking": "4 marks per correct answer; no negative marking as stated for the 2026 cycle",
+      "note": "Historical 2026-cycle structure only; re-check for future cycles."
+    },
+    {
+      "id": "mdcat-cycle-reference",
+      "exam": "MDCAT 2026 syllabus reference",
+      "source": "https://pmdc.pk/Publication/Syllabus",
+      "source_checked": "2026-11-24",
+      "note": "PM&DC notice dated 19 May 2026 stated that the 2025 syllabus applied to MDCAT-2026. Do not assume it applies to a later cycle."
+    },
+    {
+      "id": "usat-six-categories",
+      "exam": "HEC USAT",
+      "source": "https://www.hec.gov.pk/english/services/students/etc/Pages/FAQ%27s.aspx",
+      "source_checked": "2026-11-24",
+      "note": "ETC FAQ describes six categories. Universities decide whether to accept USAT or conduct their own admission test."
+    }
+  ]
+}

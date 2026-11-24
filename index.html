@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Free open-source practice platform for NSCT, NTS NAT/GAT, MDCAT, ECAT, CSS and more Pakistani exams." />
+  <title>Pakistan Test Preparation Hub</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main id="app">
+    <div class="loading">Loading…</div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+  <script>
+    async function init() {
+      try {
+        const bank = await PTH.loadBank();
+        const subjects = new Set(bank.questions.map(q => q.subject));
+        const exams = new Set(bank.questions.flatMap(q => q.exam_tags));
+
+        document.getElementById('app').innerHTML = `
+          <section class="hero">
+            <h1>Pakistan Test Preparation Hub</h1>
+            <p class="lead">Free, open-source practice for NSCT, NTS, HEC, MDCAT, ECAT, CSS and more. Original questions with explanations.</p>
+            <div class="hero-actions">
+              <a href="practice.html" class="btn btn-primary">Start Practice</a>
+              <a href="mock.html" class="btn btn-outline">Take a Mock Test</a>
+              <a href="dashboard.html" class="btn btn-ghost">Dashboard</a>
+            </div>
+          </section>
+
+          <div class="stat-grid mt-3">
+            <div class="stat"><div class="stat-value">${bank.count}</div><div class="stat-label">Questions</div></div>
+            <div class="stat"><div class="stat-value">${subjects.size}</div><div class="stat-label">Subjects</div></div>
+            <div class="stat"><div class="stat-value">${exams.size}</div><div class="stat-label">Exam tags</div></div>
+            <div class="stat"><div class="stat-value">${bank.bank_version || '3+'}</div><div class="stat-label">Bank version</div></div>
+          </div>
+
+          <h2 class="mt-4">What you can do</h2>
+          <div class="card-grid">
+            <div class="card"><h3>Practice Mode</h3><p class="text-sm text-muted mt-1">Filter by exam, subject and difficulty. Instant explanations after each answer.</p></div>
+            <div class="card"><h3>Timed Mock Tests</h3><p class="text-sm text-muted mt-1">Configurable duration, mark-for-review, navigator and automatic scoring.</p></div>
+            <div class="card"><h3>Results & Review</h3><p class="text-sm text-muted mt-1">Score, accuracy and subject-wise breakdown after every mock.</p></div>
+            <div class="card"><h3>Bookmarks</h3><p class="text-sm text-muted mt-1">Save questions for later revision (stored in your browser).</p></div>
+            <div class="card"><h3>Dark Mode</h3><p class="text-sm text-muted mt-1">Comfortable study in any lighting. Toggle from the header.</p></div>
+            <div class="card"><h3>Works Offline*</h3><p class="text-sm text-muted mt-1">After first load the site runs from cache on most browsers.</p></div>
+          </div>
+
+          <div class="notice mt-4">
+            <strong>Important:</strong> This is an independent learning resource. Exam patterns change.
+            Always confirm the current syllabus, duration and marking scheme with the official authority
+            (NTS, HEC, PMDC, UET, FPSC, etc.). All questions are original practice items, not past papers.
+          </div>
+        `;
+        mountLayout('home', bank.count);
+      } catch (e) {
+        document.getElementById('app').innerHTML = `<p class="text-muted">Failed to load: ${e.message}</p>`;
+        mountLayout('home');
+      }
+    }
+    init();
+  </script>
+</body>
+</html>

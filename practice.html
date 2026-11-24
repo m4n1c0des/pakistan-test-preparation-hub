@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Practice — Pakistan Test Prep Hub</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main id="app"><div class="loading">Loading question bank…</div></main>
+
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+  <script>
+    let bank = null;
+    let session = null;
+    let index = 0;
+    let answers = {};
+
+    async function init() {
+      try {
+        bank = await PTH.loadBank();
+        mountLayout('practice', bank.count);
+        showSetup();
+      } catch (e) {
+        document.getElementById('app').innerHTML = `<p>Error: ${e.message}</p>`;
+        mountLayout('practice');
+      }
+    }
+
+    function showSetup() {
+      const subjects = PTH.unique(bank.questions, 'subject');
+      const exams = PTH.unique(bank.questions, 'exam');
+      document.getElementById('app').innerHTML = `
+        <h1>Practice Mode</h1>
+        <p class="text-muted mb-2">Filter the bank, choose a set size, and practise with instant feedback.</p>
+        <div class="card" style="max-width:560px">
+          <div class="form-row">
+            <div>
+              <label>Exam tag</label>
+              <select id="f-exam">
+                <option value="">All exams</option>
+                ${exams.map(e => `<option value="${e}">${e}</option>`).join('')}
+              </select>
+            </div>
+            <div>
+              <label>Subject</label>
+              <select id="f-subject">
+                <option value="">All subjects</option>
+                ${subjects.map(s => `<option value="${s}">${s}</option>`).join('')}
+              </select>
+            </div>
+            <div>
+              <label>Difficulty</label>
+              <select id="f-diff">
+                <option value="">All levels</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+            </div>
+            <div>
+              <label>Number of questions</label>
+              <select id="f-count">
+                ${[5,10,15,20,25,30].map(n => `<option value="${n}" ${n===10?'selected':''}>${n}</option>`).join('')}
+              </select>
+            </div>
+          </div>
+          <div class="mt-2">
+            <label>Search</label>
+            <input type="search" id="f-search" placeholder="Keyword in question or topic…" />
+          </div>
+          <p class="text-sm text-muted mt-2" id="match-count">Matching: —</p>
+          <button class="btn btn-primary mt-2" id="btn-start" onclick="startPractice()">Start practice</button>
+        </div>
+      `;
+      ['f-exam','f-subject','f-diff','f-search'].forEach(id => {
+        document.getElementById(id).addEventListener('input', updateMatchCount);
+        document.getElementById(id).addEventListener('change', updateMatchCount);
+      });
+      updateMatchCount();
+    }
+
+    function getFilters() {
+      return {
+        exam: document.getElementById('f-exam').value,
+        subject: document.getElementById('f-subject').value,
+        difficulty: document.getElementById('f-diff').value,
+        search: document.getElementById('f-search').value.trim()
+      };
+    }
+
+    function updateMatchCount() {
+      const filtered = PTH.filter(bank.questions, getFilters());
+      document.getElementById('match-count').textContent = `Matching questions: ${filtered.length}`;
+      document.getElementById('btn-start').disabled = filtered.length === 0;
+    }
+
+    function startPractice() {
+      const filters = getFilters();
+      const count = parseInt(document.getElementById('f-count').value, 10);
+      const filtered = PTH.filter(bank.questions, filters);
+      session = PTH.pick(filtered, count);
+      index = 0;
+      answers = {};
+      renderQuestion();
+    }
+
+    function renderQuestion() {
+      const q = session[index];
+      const userAns = answers[q.id];
+      const isBookmarked = PTH.getBookmarks().includes(q.id);
+      const correctCount = session.filter(x => answers[x.id] === x.correct_answer).length;
+      const answeredCount = Object.keys(answers).length;
+
+      let optionsHtml = q.options.map(opt => {
+        let cls = 'option';
+        if (userAns) {
+          if (opt.key === q.correct_answer) cls += ' correct';
+          else if (opt.key === userAns) cls += ' incorrect';
+          else cls += ' dimmed';
+        }
+        return `<button class="${cls}" ${userAns ? 'disabled' : ''} onclick="selectAnswer('${opt.key}')">
+          <strong>${opt.key}.</strong> ${opt.text}
+        </button>`;
+      }).join('');
+
+      let expl = '';
+      if (userAns) {
+        const ok = userAns === q.correct_answer;
+        expl = `<div class="explanation ${ok ? 'ok' : 'bad'}">
+          <strong>${ok ? '✅ Correct' : '❌ Incorrect — correct answer is ' + q.correct_answer}</strong>
+          <p class="mt-1">${q.explanation}</p>
+          ${q.review_status !== 'editorially_reviewed' ? `<p class="text-sm mt-1" style="color:var(--warning)">Review status: ${q.review_status.replace(/_/g,' ')}</p>` : ''}
+        </div>`;
+      }
+
+      document.getElementById('app').innerHTML = `
+        <div class="flex-between mb-2">
+          <div class="text-sm text-muted">
+            Question ${index + 1} of ${session.length}
+            ${answeredCount ? ` · Score so far: ${correctCount}/${answeredCount}` : ''}
+          </div>
+          <div class="flex gap-2">
+            <button class="btn btn-ghost" onclick="toggleBm('${q.id}')" title="Bookmark">${isBookmarked ? '🔖 Saved' : '🔖 Bookmark'}</button>
+            <button class="btn btn-ghost" onclick="showSetup()">End</button>
+          </div>
+        </div>
+
+        <div class="q-card">
+          <div class="q-meta">
+            <span class="tag">${q.subject}</span>
+            <span class="tag">${q.topic}</span>
+            <span class="tag">${q.difficulty}</span>
+            ${q.exam_tags.slice(0,2).map(t => `<span class="tag tag-primary">${t}</span>`).join('')}
+          </div>
+          <p class="q-prompt">${q.prompt}</p>
+          <div>${optionsHtml}</div>
+          ${expl}
+        </div>
+
+        <div class="flex-between mt-2">
+          <button class="btn btn-ghost" onclick="go(-1)" ${index===0?'disabled':''}>◀ Previous</button>
+          <button class="btn btn-primary" onclick="go(1)" ${index>=session.length-1?'disabled':''}>Next ▶</button>
+        </div>
+
+        <div class="nav-dots">
+          ${session.map((qq, i) => {
+            let cls = 'dot';
+            if (i === index) cls += ' current';
+            if (answers[qq.id]) cls += answers[qq.id] === qq.correct_answer ? ' correct' : ' wrong';
+            return `<button class="${cls}" onclick="goTo(${i})">${i+1}</button>`;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    function selectAnswer(key) {
+      const q = session[index];
+      if (answers[q.id]) return;
+      answers[q.id] = key;
+      renderQuestion();
+    }
+
+    function go(delta) {
+      index = Math.max(0, Math.min(session.length - 1, index + delta));
+      renderQuestion();
+    }
+    function goTo(i) { index = i; renderQuestion(); }
+
+    function toggleBm(id) {
+      PTH.toggleBookmark(id);
+      renderQuestion();
+    }
+
+    init();
+  </script>
+</body>
+</html>
